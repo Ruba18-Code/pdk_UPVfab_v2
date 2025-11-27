@@ -6,23 +6,24 @@ requires = ["flit_core >=3.2,<4"]
 
 [project]
 authors = [
-  {name = "gdsfactory", email = "contact@gdsfactory.com"}
+  {name = "Camilo Cano", email = "cccanvas@upv.es"}
 ]
 classifiers = [
   "Programming Language :: Python :: 3.12",
   "Operating System :: OS Independent"
 ]
 dependencies = [
-  "gdsfactory~=9.16.3",
+  "gdsfactory~=9.19.0",
   "doroutes>=0.2.0",
   "gdsfactoryplus",
   "gplugins[sax,femwell,tidy3d]~=1.4.2",
   "meow-sim",
+  "scikit-learn>=1.7.2",
 ]
-description = "Sample Photonics PDK"
+description = "Sample Silicon Nitride PDK"
 keywords = ["python"]
 license = {file = "LICENSE"}
-name = "upvfab"
+name = "UPVfab"
 readme = "README.md"
 requires-python = "~=3.12.0"
 version = "0.0.0"
